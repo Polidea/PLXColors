@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+# use_frameworks!
+
+target 'PLXColors_Example', :exclusive => true do
+  pod "PLXColors", :path => "../"
+end
+
+target 'PLXColors_Tests', :exclusive => true do
+  pod "PLXColors", :path => "../"
+
+  pod 'Kiwi'
+end
